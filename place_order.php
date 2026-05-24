@@ -11,11 +11,11 @@ header('Content-Type: application/json');
 require_once 'db.php';
 
 // ─── CONFIG (same as your stk_push.php) ──────────────────────
-define('CONSUMER_KEY',    'j1z0fbnKTvIhvoabJjWXmUeJy9jdkOhZfSD6vfMsJ33Jxfa4');
-define('CONSUMER_SECRET', 'RolCZQwi7O8Tc2mQRcFcttos2TBNKJ81Tz4zLS314WMohY4DptFB7ACXF7ldwTJz');
-define('SHORTCODE',       '174379');
-define('PASSKEY',         'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919');
-define('CALLBACK_URL',    'https://robust-lanky-scallion.ngrok-free.dev');
+define('CONSUMER_KEY',    '');
+define('CONSUMER_SECRET', '');
+define('SHORTCODE',       '');
+define('PASSKEY',         '');
+define('CALLBACK_URL',    '');
 define('ENVIRONMENT',     'sandbox');
 
 define('BASE_URL', ENVIRONMENT === 'live'
